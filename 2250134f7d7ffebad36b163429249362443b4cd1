@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "f514c450_c336c0d8",
+        "filename": "openstack-tobiko.spec",
+        "patchSetId": 14
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 534
+      },
+      "writtenOn": "2019-09-17T10:00:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "00e708f9_47718e7a",
+      "range": {
+        "startLine": 23,
+        "startChar": 12,
+        "endLine": 23,
+        "endChar": 18
+      },
+      "revId": "2250134f7d7ffebad36b163429249362443b4cd1",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "92151742_7824a146",
         "filename": "openstack-tobiko.spec",
         "patchSetId": 14
@@ -36,6 +60,30 @@
       "writtenOn": "2019-09-16T11:52:23Z",
       "side": 1,
       "message": "move this in pyver conditional:-\n\n%if %{pyver} \u003d\u003d 2\nRequires:   ansible \u003e\u003d 2.4.0\n%else\nRequires:   python3dist(ansible) \u003e\u003d 2.4.0\n%endif",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 28
+      },
+      "revId": "2250134f7d7ffebad36b163429249362443b4cd1",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b3298fe9_b4c6ad1e",
+        "filename": "openstack-tobiko.spec",
+        "patchSetId": 14
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 534
+      },
+      "writtenOn": "2019-09-17T10:00:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "92151742_7824a146",
       "range": {
         "startLine": 49,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "39d0868d_d1c688b1",
+        "filename": "openstack-tobiko.spec",
+        "patchSetId": 14
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 534
+      },
+      "writtenOn": "2019-09-17T10:00:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f5ec4411_ca64369e",
+      "range": {
+        "startLine": 70,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 6
+      },
+      "revId": "2250134f7d7ffebad36b163429249362443b4cd1",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "615e604f_7a58c312",
         "filename": "openstack-tobiko.spec",
         "patchSetId": 14
@@ -82,6 +154,24 @@
       "writtenOn": "2019-09-16T11:52:23Z",
       "side": 1,
       "message": "can u also add %check section to run unit test like upstream does, https://opendev.org/x/tobiko/src/branch/master/tox.ini#L23 or u planning it as a follow up.",
+      "revId": "2250134f7d7ffebad36b163429249362443b4cd1",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0a19be43_242b2fb2",
+        "filename": "openstack-tobiko.spec",
+        "patchSetId": 14
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 534
+      },
+      "writtenOn": "2019-09-17T10:00:53Z",
+      "side": 1,
+      "message": "I will add UT as follow up maybe as there was some issue with those tests during package build process.",
+      "parentUuid": "615e604f_7a58c312",
       "revId": "2250134f7d7ffebad36b163429249362443b4cd1",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
