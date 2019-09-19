@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5324cb4c_822b35d2",
+        "filename": "openstack-tobiko.spec",
+        "patchSetId": 15
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2019-09-19T06:52:06Z",
+      "side": 1,
+      "message": "python3dist(ansible) \u003e\u003d 2.4.0",
+      "range": {
+        "startLine": 52,
+        "startChar": 12,
+        "endLine": 52,
+        "endChar": 44
+      },
+      "revId": "382b6442449c3763015fc33f1923391cf866dc60",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
