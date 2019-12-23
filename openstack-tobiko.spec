@@ -106,3 +106,4 @@ rm -rf %{service}.egg-info
 * Thu Oct 17 2019 RDO <dev@lists.rdoproject.org> 0.2.0-1
 - Update to 0.2.0
 
+# REMOVEME: error caused by commit https://opendev.org/x/tobiko008c9fcca094f7b0b6575c337f40b8c51318c47e
