@@ -46,17 +46,11 @@ BuildRequires:  python%{pyver}-testscenarios
 Summary: Tobiko testing framework
 %{?python_provide:%python_provide python%{pyver}-%{service}}
 
-%if %{pyver} == 2
-Requires:   ansible >= 2.4.0
-%else
-Requires:   python3dist(ansible) >= 2.4.0
-%endif
 Requires:   python%{pyver}-fixtures >= 3.0.0
 Requires:   python%{pyver}-keystoneauth1 >= 3.4.0
 Requires:   python%{pyver}-jinja2 >= 2.8
 Requires:   python%{pyver}-eventlet >= 0.20.1
 Requires:   python%{pyver}-neutron-lib >= 1.25.0
-Requires:   python%{pyver}-os-faults >= 0.1.18
 Requires:   python%{pyver}-oslo-config >= 2:5.2.0
 Requires:   python%{pyver}-oslo-log >= 3.36.0
 Requires:   python%{pyver}-paramiko >= 2.4.0
@@ -94,13 +88,8 @@ rm -rf %{service}.egg-info
 %doc README.rst
 %{pyver_sitelib}/%{service}
 %{pyver_sitelib}/*.egg-info
-%{_bindir}/tobiko
-%{_bindir}/tobiko-create
-%{_bindir}/tobiko-delete
-%{_bindir}/tobiko-fault
 %{_bindir}/tobiko-fixture
 %{_bindir}/tobiko-keystone-credentials
-%{_bindir}/tobiko-list
 
 %changelog
 
