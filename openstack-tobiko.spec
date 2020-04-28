@@ -1,15 +1,3 @@
-# Macros for py2/py3 compatibility
-%if 0%{?fedora} || 0%{?rhel} > 7
-%global pyver %{python3_pkgversion}
-%else
-%global pyver 2
-%endif
-
-%global pyver_bin python%{pyver}
-%global pyver_sitelib %python%{pyver}_sitelib
-%global pyver_install %py%{pyver}_install
-%global pyver_build %py%{pyver}_build
-# End of macros for py2/py3 compatibility
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
@@ -33,40 +21,40 @@ BuildArch:  noarch
 
 BuildRequires:  git
 BuildRequires:  openstack-macros
-BuildRequires:  python%{pyver}-devel
-BuildRequires:  python%{pyver}-mock
-BuildRequires:  python%{pyver}-pbr
-BuildRequires:  python%{pyver}-setuptools
-BuildRequires:  python%{pyver}-testscenarios
+BuildRequires:  python3-devel
+BuildRequires:  python3-mock
+BuildRequires:  python3-pbr
+BuildRequires:  python3-setuptools
+BuildRequires:  python3-testscenarios
 
 %description
 %{common_desc}
 
-%package -n  python%{pyver}-%{service}
+%package -n  python3-%{service}
 Summary: Tobiko testing framework
-%{?python_provide:%python_provide python%{pyver}-%{service}}
+%{?python_provide:%python_provide python3-%{service}}
 
-Requires:   python%{pyver}-fixtures >= 3.0.0
-Requires:   python%{pyver}-keystoneauth1 >= 3.4.0
-Requires:   python%{pyver}-jinja2 >= 2.8
-Requires:   python%{pyver}-eventlet >= 0.20.1
-Requires:   python%{pyver}-neutron-lib >= 1.25.0
-Requires:   python%{pyver}-oslo-config >= 2:5.2.0
-Requires:   python%{pyver}-oslo-log >= 3.36.0
-Requires:   python%{pyver}-paramiko >= 2.4.0
-Requires:   python%{pyver}-pbr >= 4.0.0
-Requires:   python%{pyver}-heatclient >= 1.5.0
-Requires:   python%{pyver}-glanceclient >= 2.16.0
-Requires:   python%{pyver}-neutronclient >= 6.7.0
-Requires:   python%{pyver}-novaclient >= 9.1.0
-Requires:   python%{pyver}-octaviaclient >= 1.9.0
-Requires:   python%{pyver}-openstackclient >= 3.0.0
-Requires:   python%{pyver}-stestr >= 2.0
-Requires:   python%{pyver}-six  >= 1.10.0
-Requires:   python%{pyver}-testtools >= 2.2.0
-Requires:   python%{pyver}-netaddr >= 0.7.19
+Requires:   python3-fixtures >= 3.0.0
+Requires:   python3-keystoneauth1 >= 3.4.0
+Requires:   python3-jinja2 >= 2.8.0
+Requires:   python3-eventlet >= 0.20.1
+Requires:   python3-neutron-lib >= 1.25.0
+Requires:   python3-oslo-config >= 2:5.2.0
+Requires:   python3-oslo-log >= 3.36.0
+Requires:   python3-paramiko >= 2.4.0
+Requires:   python3-pbr >= 4.0.0
+Requires:   python3-heatclient >= 1.5.0
+Requires:   python3-glanceclient >= 2.16.0
+Requires:   python3-neutronclient >= 6.7.0
+Requires:   python3-novaclient >= 9.1.0
+Requires:   python3-octaviaclient >= 1.9.0
+Requires:   python3-openstackclient >= 3.0.0
+Requires:   python3-stestr >= 2.0
+Requires:   python3-six  >= 1.10.0
+Requires:   python3-testtools >= 2.2.0
+Requires:   python3-netaddr >= 0.7.19
 
-%description -n python%{pyver}-%{service}
+%description -n python3-%{service}
 This package contains Tobiko testing framework and test cases.
 
 %prep
@@ -78,16 +66,16 @@ This package contains Tobiko testing framework and test cases.
 rm -rf %{service}.egg-info
 
 %build
-%{pyver_build}
+%{py3_build}
 
 %install
-%{pyver_install}
+%{py3_install}
 
-%files -n python%{pyver}-%{service}
+%files -n python3-%{service}
 %license LICENSE
 %doc README.rst
-%{pyver_sitelib}/%{service}
-%{pyver_sitelib}/*.egg-info
+%{python3_sitelib}/%{service}
+%{python3_sitelib}/*.egg-info
 %{_bindir}/tobiko-fixture
 %{_bindir}/tobiko-keystone-credentials
 
