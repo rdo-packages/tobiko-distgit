@@ -35,24 +35,26 @@ Summary: Tobiko testing framework
 %{?python_provide:%python_provide python3-%{service}}
 
 Requires:   python3-fixtures >= 3.0.0
-Requires:   python3-keystoneauth1 >= 3.4.0
-Requires:   python3-jinja2 >= 2.8.0
+Requires:   python3-keystoneauth1 >= 3.18.0
+Requires:   python3-jinja2 >= 2.10.0
 Requires:   python3-eventlet >= 0.20.1
 Requires:   python3-neutron-lib >= 1.25.0
 Requires:   python3-oslo-config >= 2:5.2.0
 Requires:   python3-oslo-log >= 3.36.0
 Requires:   python3-paramiko >= 2.4.0
-Requires:   python3-pbr >= 4.0.0
+Requires:   python3-pbr >= 4.0.4
 Requires:   python3-heatclient >= 1.5.0
 Requires:   python3-glanceclient >= 2.16.0
 Requires:   python3-neutronclient >= 6.7.0
 Requires:   python3-novaclient >= 9.1.0
 Requires:   python3-octaviaclient >= 1.9.0
-Requires:   python3-openstackclient >= 3.0.0
-Requires:   python3-stestr >= 2.0
-Requires:   python3-six  >= 1.10.0
+Requires:   python3-openstackclient >= 3.12.0
+Requires:   python3-stestr >= 2.0.0
+Requires:   python3-six >= 1.11.0
 Requires:   python3-testtools >= 2.2.0
 Requires:   python3-netaddr >= 0.7.19
+Requires:   python3-docker >= 4.0.0
+Requires:   python3-junitxml >= 0.7
 
 %description -n python3-%{service}
 This package contains Tobiko testing framework and test cases.
