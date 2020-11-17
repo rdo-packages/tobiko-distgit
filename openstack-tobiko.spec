@@ -19,7 +19,7 @@ Source0:    http://tarballs.openstack.org/%{service}/%{service}-%{upstream_versi
 
 BuildArch:  noarch
 
-BuildRequires:  git
+BuildRequires:  git-core
 BuildRequires:  openstack-macros
 BuildRequires:  python3-devel
 BuildRequires:  python3-mock
