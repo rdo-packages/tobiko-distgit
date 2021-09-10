@@ -49,12 +49,17 @@ Requires:   python3-neutronclient >= 7.2.1
 Requires:   python3-novaclient >= 17.2.1
 Requires:   python3-octaviaclient >= 2.2.0
 Requires:   python3-openstackclient >= 5.4.0
+Requires:   python3-ironicclient >= 4.6.1
 Requires:   python3-stestr >= 2.0.0
 Requires:   python3-six >= 1.15.0
 Requires:   python3-testtools >= 2.3.0
 Requires:   python3-netaddr >= 0.7.19
 Requires:   python3-docker >= 4.2.1
 Requires:   python3-junitxml >= 0.7
+Requires:   python3-validations-libs >= 1.1.0
+Requires:   python3-sshtunnel >= 0.3.1
+Requires:   python3-decorator >= 4.4.0
+Requires:   python3-deprecation >= 2.1.0
 
 %description -n python3-%{service}
 This package contains Tobiko testing framework and test cases.
