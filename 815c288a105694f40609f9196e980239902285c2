@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ca72892_915c9d7c",
+        "filename": "openstack-tobiko.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2021-09-14T13:38:23Z",
+      "side": 1,
+      "message": "found https://opendev.org/x/tobiko/commit/41389ec8ae643f3b02492b284ce0395cf0634a6e but seems that\u0027s not directly used",
+      "revId": "815c288a105694f40609f9196e980239902285c2",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
