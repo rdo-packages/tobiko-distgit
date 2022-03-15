@@ -58,6 +58,9 @@ Requires:   python3-docker >= 4.2.1
 Requires:   python3-junitxml >= 0.7
 Requires:   python3-decorator >= 4.4.0
 Requires:   python3-deprecation >= 2.1.0
+Requires:   python3-validations-libs >= 1.1.0
+Requires:   python3-psutil >= 5.8.0
+Requires:   python3-dateutil >= 2.6.1
 
 %description -n python3-%{service}
 This package contains Tobiko testing framework and test cases.
