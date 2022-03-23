@@ -1,6 +1,10 @@
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
+%if 0%{?repo_bootstrap}
+%global repo_bootstrap 1
+%endif
+
 %global service tobiko
 
 %global common_desc \
