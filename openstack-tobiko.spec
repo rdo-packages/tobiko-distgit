@@ -1,6 +1,8 @@
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
+%global repo_bootstrap 0
+
 %global service tobiko
 
 %global common_desc \
@@ -9,8 +11,8 @@ Tobiko is an OpenStack testing framework focusing on areas mostly \
 complementary to Tempest.
 
 Name:       openstack-%{service}
-Version:    XXX
-Release:    XXX
+Version:    0.5.1
+Release:    1%{?dist}
 Summary:    Tobiko testing framework
 License:    ASL 2.0
 URL:        https://opendev.org/x/tobiko/
@@ -58,9 +60,12 @@ Requires:   python3-docker >= 4.2.1
 Requires:   python3-junitxml >= 0.7
 Requires:   python3-decorator >= 4.4.0
 Requires:   python3-deprecation >= 2.1.0
-Requires:   python3-validations-libs >= 1.1.0
 Requires:   python3-psutil >= 5.7.3
 Requires:   python3-dateutil >= 2.6.1
+
+%if 0%{?repo_bootstrap} == 0
+Requires:   python3-validations-libs >= 1.1.0
+%endif
 
 %description -n python3-%{service}
 This package contains Tobiko testing framework and test cases.
@@ -88,4 +93,7 @@ rm -rf %{service}.egg-info
 %{_bindir}/tobiko-keystone-credentials
 
 %changelog
+* Wed Mar 23 2022 RDO <dev@lists.rdoproject.org> 0.5.1-1
+- Update to 0.5.1
+
 
