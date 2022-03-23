@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "861b1e2c_44436724",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-03-23T17:20:50Z",
+      "side": 1,
+      "message": "need repo_bootstrap mechanism for python3-validations-libs as it\u0027s ooo package",
+      "revId": "917b697a1e7b334bfd62eb3cfc2007ea83ac8e31",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
