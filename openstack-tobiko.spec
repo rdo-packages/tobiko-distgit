@@ -81,3 +81,4 @@ rm -rf %{service}.egg-info
 
 %changelog
 
+# REMOVEME: error caused by commit https://opendev.org/x/tobiko/commit/2bb81c93d1ac5bae64e3d5732816e0769358beb6
