@@ -28,6 +28,7 @@ BuildRequires:  python3-mock
 BuildRequires:  python3-pbr
 BuildRequires:  python3-setuptools
 BuildRequires:  python3-testscenarios
+BuildRequires:  python3-packaging
 
 %description
 %{common_desc}
@@ -38,12 +39,12 @@ Summary: Tobiko testing framework
 
 Requires:   python3-fixtures >= 3.0.0
 Requires:   python3-keystoneauth1 >= 4.3.0
-Requires:   python3-jinja2 >= 2.10.1
+Requires:   python3-jinja2 >= 2.11.2
 Requires:   python3-eventlet >= 0.20.1
 Requires:   python3-neutron-lib >= 2.7.0
 Requires:   python3-oslo-config >= 2:8.4.0
 Requires:   python3-oslo-log >= 4.4.0
-Requires:   python3-paramiko >= 2.7.2
+Requires:   python3-paramiko >= 2.9.2
 Requires:   python3-pbr >= 5.5.1
 Requires:   python3-heatclient >= 2.3.0
 Requires:   python3-glanceclient >= 3.2.2
@@ -54,14 +55,18 @@ Requires:   python3-openstackclient >= 5.4.0
 Requires:   python3-ironicclient >= 4.6.1
 Requires:   python3-stestr >= 2.0.0
 Requires:   python3-six >= 1.15.0
-Requires:   python3-testtools >= 2.3.0
-Requires:   python3-netaddr >= 0.7.19
-Requires:   python3-docker >= 4.2.1
+Requires:   python3-testtools >= 2.5.0
+Requires:   python3-netaddr >= 0.8.0
+Requires:   python3-docker >= 4.4.1
 Requires:   python3-junitxml >= 0.7
-Requires:   python3-decorator >= 4.4.0
+Requires:   python3-decorator >= 4.4.2
 Requires:   python3-deprecation >= 2.1.0
-Requires:   python3-psutil >= 5.7.3
-Requires:   python3-dateutil >= 2.6.1
+Requires:   python3-psutil >= 5.8.0
+Requires:   python3-dateutil >= 2.8.0
+Requires:   python3-yaml >= 5.4.1
+Requires:   python3-designateclient >= 4.4.0
+Requires:   python3-packaging >= 20.4
+Requires:   python3-metalsmith >= 1.6.2
 
 %if 0%{?repo_bootstrap} == 0
 Requires:   python3-validations-libs >= 1.1.0
