@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95f115f7_d95f4c54",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 757
+      },
+      "writtenOn": "2022-09-20T11:28:36Z",
+      "side": 1,
+      "message": "nothing provides python3-metalsmith \u003e\u003d 1.6.2\nnothing provides python3-validations-libs \u003e\u003d 1.1.0",
+      "revId": "e05740dab63dcf6bc09c5b89644dda91e4f9944a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
