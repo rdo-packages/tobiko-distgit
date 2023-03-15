@@ -11,8 +11,8 @@ Tobiko is an OpenStack testing framework focusing on areas mostly \
 complementary to Tempest.
 
 Name:       openstack-%{service}
-Version:    XXX
-Release:    XXX
+Version:    0.6.6
+Release:    1%{?dist}
 Summary:    Tobiko testing framework
 License:    ASL 2.0
 URL:        https://opendev.org/x/tobiko/
@@ -98,4 +98,7 @@ rm -rf %{service}.egg-info
 %{_bindir}/tobiko-keystone-credentials
 
 %changelog
+* Wed Mar 15 2023 RDO <dev@lists.rdoproject.org> 0.6.6-1
+- Update to 0.6.6
+
 
