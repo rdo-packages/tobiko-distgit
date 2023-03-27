@@ -102,3 +102,4 @@ rm -rf %{service}.egg-info
 - Update to 0.6.6
 
 
+# REMOVEME: error caused by commit https://opendev.org/x/tobiko/commit/c8b6a7f76b2b4d0ee98b7f19f48f537231565631
