@@ -33,6 +33,24 @@
       "message": "this is related to tripleo removal:\n\nDEBUG:   - nothing provides python3-validations-libs \u003e\u003d 1.1.0 needed by python3-tobiko-0.6.8-0.20230327164721.c8b6a7f.el9.noarch\n\nWe have removed validations-lib from antelope. We need to check with maintainers and see if this is an actual upstream issue or if we can safely remove the dependency. Or even if we should retire tobiko from rdo as part of tripleo retirement.\n",
       "revId": "7541f741b69720fac19d8c2920010561fb746c69",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa29bc0c_c7fc28d9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 534
+      },
+      "writtenOn": "2023-03-28T12:51:25Z",
+      "side": 1,
+      "message": "This is issue currently but we need to drop validations usage in tobiko asap.",
+      "parentUuid": "ee1833a4_50359b01",
+      "revId": "7541f741b69720fac19d8c2920010561fb746c69",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
