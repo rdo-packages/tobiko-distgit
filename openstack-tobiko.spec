@@ -11,7 +11,7 @@ Tobiko is an OpenStack testing framework focusing on areas mostly \
 complementary to Tempest.
 
 Name:       openstack-%{service}
-Version:    0.6.6
+Version:    0.6.8
 Release:    1%{?dist}
 Summary:    Tobiko testing framework
 License:    ASL 2.0
@@ -67,10 +67,6 @@ Requires:   python3-yaml >= 5.4.1
 Requires:   python3-designateclient >= 4.4.0
 Requires:   python3-packaging >= 20.4
 Requires:   python3-metalsmith >= 1.6.2
-
-%if 0%{?repo_bootstrap} == 0
-Requires:   python3-validations-libs >= 1.1.0
-%endif
 
 %description -n python3-%{service}
 This package contains Tobiko testing framework and test cases.
