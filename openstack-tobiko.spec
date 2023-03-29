@@ -68,10 +68,6 @@ Requires:   python3-designateclient >= 4.4.0
 Requires:   python3-packaging >= 20.4
 Requires:   python3-metalsmith >= 1.6.2
 
-%if 0%{?repo_bootstrap} == 0
-Requires:   python3-validations-libs >= 1.1.0
-%endif
-
 %description -n python3-%{service}
 This package contains Tobiko testing framework and test cases.
 
