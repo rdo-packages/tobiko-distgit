@@ -51,6 +51,24 @@
       "parentUuid": "ee1833a4_50359b01",
       "revId": "7541f741b69720fac19d8c2920010561fb746c69",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61917446_49b19990",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 534
+      },
+      "writtenOn": "2023-03-30T08:55:09Z",
+      "side": 1,
+      "message": "Should be fixed with https://review.rdoproject.org/r/c/openstack/tobiko-distgit/+/48033 which removed validations-lib from dependencies",
+      "parentUuid": "fa29bc0c_c7fc28d9",
+      "revId": "7541f741b69720fac19d8c2920010561fb746c69",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
