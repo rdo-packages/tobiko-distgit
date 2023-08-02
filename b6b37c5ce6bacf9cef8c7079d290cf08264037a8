@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10701ac5_92961afd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-08-02T13:40:34Z",
+      "side": 1,
+      "message": "Other than the issue with sshtunnel (which can be follow up) lgtm",
+      "revId": "b6b37c5ce6bacf9cef8c7079d290cf08264037a8",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
