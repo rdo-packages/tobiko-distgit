@@ -90,3 +90,4 @@ done
 
 %changelog
 
+# REMOVEME: error caused by commit https://opendev.org/x/tobiko/commit/35b59a826d5e33de59eb4624314b2fce5364442f
