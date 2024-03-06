@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90155fa8_7b06ab3d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-03-06T17:11:42Z",
+      "side": 1,
+      "message": "Even though the FTBFS [1] is in Bobcat, we\u0027ll for sure hit this issue in master soon \n\n[1] https://review.rdoproject.org/r/c/openstack/tobiko-distgit/+/52001",
+      "revId": "c9ba782e25154550ea645a5390fc246c2e1ebd3a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ],
   "submitRequirementResults": []
 }
