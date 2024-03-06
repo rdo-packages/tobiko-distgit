@@ -34,6 +34,24 @@
       "parentUuid": "90155fa8_7b06ab3d",
       "revId": "c9ba782e25154550ea645a5390fc246c2e1ebd3a",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1773792_fa9f38fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-03-06T17:15:53Z",
+      "side": 1,
+      "message": "... because there is only master branch and we are tracking it for all releases [1]\ntags:\n  antelope: null\n  bobcat: null\n  caracal: null\n  caracal-uc: null\n  \nSo I will backport this patch to stable branches once merged\n\n[1] https://opendev.org/x/tobiko",
+      "parentUuid": "f093d175_276d3996",
+      "revId": "c9ba782e25154550ea645a5390fc246c2e1ebd3a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ],
   "submitRequirementResults": []
