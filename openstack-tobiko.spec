@@ -50,6 +50,7 @@ sed -i /^minversion.*/d tox.ini
 sed -i /^requires.*virtualenv.*/d tox.ini
 # requirements-override-centos C9S is providing pytest-6.2.2 while package requires >= 6.2.5
 sed -i "s/pytest>=.*/pytest/" test-requirements.txt
+sed -i 's/pytest-xdist\[psutil\]>=.*/pytest-xdist[psutil]/' test-requirements.txt
 
 # Exclude some bad-known BRs
 for pkg in %{excluded_brs}; do
