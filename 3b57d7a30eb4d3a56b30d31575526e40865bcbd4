@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "84b6cec4_cbbe9d8f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-03-07T07:09:36Z",
+      "side": 1,
+      "message": "we are pinning tobiko in https://review.rdoproject.org/r/c/rdoinfo/+/51667/6/tags/bobcat.yml",
+      "revId": "3b57d7a30eb4d3a56b30d31575526e40865bcbd4",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
