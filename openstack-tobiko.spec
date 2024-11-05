@@ -91,4 +91,3 @@ done
 %changelog
 * Tue Sep 19 2023 RDO <dev@lists.rdoproject.org> 0.6.14-1
 - Update to 0.6.14
-
