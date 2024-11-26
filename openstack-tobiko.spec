@@ -89,6 +89,7 @@ rm -rf %{service}.egg-info
 %doc README.rst
 %{python3_sitelib}/%{service}
 %{python3_sitelib}/*.egg-info
+%{_bindir}/tobiko
 %{_bindir}/tobiko-fixture
 %{_bindir}/tobiko-keystone-credentials
 
