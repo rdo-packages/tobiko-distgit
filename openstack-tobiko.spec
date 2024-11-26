@@ -97,3 +97,4 @@ rm -rf %{service}.egg-info
 * Wed Mar 15 2023 RDO <dev@lists.rdoproject.org> 0.6.6-1
 - Update to 0.6.6
 
+# REMOVEME: error caused by commit https://opendev.org/x/tobiko/commit/e175e1e781e1fcb9bedcd6e21be250673cfad165
