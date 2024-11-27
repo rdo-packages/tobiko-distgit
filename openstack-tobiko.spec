@@ -97,4 +97,3 @@ rm -rf %{service}.egg-info
 - Update to 0.5.1
 
 
-
