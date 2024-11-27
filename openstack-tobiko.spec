@@ -85,4 +85,3 @@ rm -rf %{service}.egg-info
 * Fri Apr 02 2021 RDO <dev@lists.rdoproject.org> 0.4.1-1
 - Update to 0.4.1
 
-
