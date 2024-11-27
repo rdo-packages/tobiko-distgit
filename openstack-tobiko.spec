@@ -102,4 +102,3 @@ rm -rf %{service}.egg-info
 - Update to 0.6.1
 
 
-
