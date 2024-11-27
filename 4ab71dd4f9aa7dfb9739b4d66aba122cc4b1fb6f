@@ -16,6 +16,23 @@
       "message": "Fix: https://review.rdoproject.org/r/c/openstack/tobiko-distgit/+/55619",
       "revId": "4ab71dd4f9aa7dfb9739b4d66aba122cc4b1fb6f",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "300bb8dc_26443e35",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 757
+      },
+      "writtenOn": "2024-11-27T10:25:25Z",
+      "side": 1,
+      "message": "recheck",
+      "revId": "4ab71dd4f9aa7dfb9739b4d66aba122cc4b1fb6f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
