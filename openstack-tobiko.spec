@@ -97,4 +97,3 @@ rm -rf %{service}.egg-info
 * Wed Mar 15 2023 RDO <dev@lists.rdoproject.org> 0.6.6-1
 - Update to 0.6.6
 
-
